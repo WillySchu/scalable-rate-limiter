@@ -10,7 +10,7 @@ Redis needs to be required in and setup to use the correct host and credentials.
 https://www.npmjs.com/package/redis
 
 ```
-npm install redis
+$ npm install redis
 ```
 
 ### Installing
