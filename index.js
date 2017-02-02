@@ -16,7 +16,7 @@ const luaScript = fs.readFileSync(__dirname + '/rl.lua', 'utf-8');
  * @param {Integer} dailyTTL How long to store daily quota usage in redis
  * @param {String} timezone Timezone for daily tally
  *
-*/
+ */
 
 class RateLimiter {
   constructor (redis,
